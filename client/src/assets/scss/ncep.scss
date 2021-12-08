@@ -1,0 +1,65 @@
+/*!
+
+ =========================================================
+ * Paper Kit React - v1.3.0 based on Paper Kit - v2.2.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/ncep-2
+ * Copyright 2021 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+@import 'ncep/variables';
+@import 'ncep/mixins';
+
+// Plugins CSS
+@import "ncep/plugins/plugin-bootstrap-switch";
+@import "ncep/plugins/plugin-nouislider";
+@import "ncep/plugins/plugin-datepicker";
+
+// Core CSS
+@import "ncep/buttons";
+@import "ncep/inputs";
+@import "ncep/checkbox-radio";
+@import "ncep/progress-bars";
+@import "ncep/badges";
+@import "ncep/pagination";
+@import "ncep/typography";
+@import "ncep/misc";
+@import "ncep/labels";
+
+// components
+@import "ncep/nucleo-icons";
+@import "ncep/social-buttons";
+@import "ncep/tabs-navs";
+@import "ncep/navbars";
+@import "ncep/dropdown";
+@import "ncep/alerts";
+@import "ncep/images";
+@import "ncep/tooltips-and-popovers";
+@import "ncep/modal";
+@import "ncep/icons";
+@import "ncep/carousel";
+@import "ncep/footers";
+
+// Cards
+@import "ncep/cards";
+@import "ncep/cards/card-plain";
+@import "ncep/cards/card-register";
+@import "ncep/cards/card-profile";
+
+// example pages and sections
+@import "ncep/examples";
+@import "ncep/sections";
+
+
+@import "ncep/responsive";
+
+// React Differences
+@import "react/react-differences.scss"
